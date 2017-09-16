@@ -7,6 +7,7 @@
 #include <fstream>
 #include <algorithm>
 #include <stack>
+#include <conio.h>
 #include <windows.h>
 
 using namespace std;
@@ -14,8 +15,10 @@ using namespace std;
 int field[60][60],
 	fieldWidth,
 	fieldHeight,
-	matrix[4000][60] = { 0 },
-	matrixRowsCount = 0;
+	matrix[4000][60],
+	matrixRowsCount;
+
+string filename = "8.in";
 
 int cellNum = 1;
 
@@ -142,7 +145,7 @@ void seedFigures() {
 void readFieldFromFile() {
 	field[60][60] = { 0 };
 
-	ifstream file("9.in");
+	ifstream file(filename);
 	string str;
 
 	int	y = 0;
@@ -547,7 +550,7 @@ void restoreColRowStack(stack<ColOrRow> *deletedColRowStack) {
 
 		(*deletedColRowStack).pop();
 
-		delete colOrRow;
+	//	delete colOrRow;
 	}
 }
 
@@ -760,6 +763,7 @@ int main() {
 
 	if (!dancingLinks()) {
 		cout << "This field does not have any solutions.";
+		_getch();
 		return 0;
 	}
 
@@ -785,6 +789,6 @@ int main() {
 		}
 		row = row->down;
 	}*/
-
+	_getch();
 	return 0;
 }
