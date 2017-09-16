@@ -110,7 +110,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="createMatrix.cpp" />
+    <ClCompile Include="createReferenceMatrix.cpp" />
+    <ClCompile Include="dancingLinks.cpp" />
+    <ClCompile Include="debugging.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="readFieldFromFile.cpp" />
+    <ClCompile Include="recoveryCol.cpp" />
+    <ClCompile Include="recoveryRow.cpp" />
+    <ClCompile Include="removeCol.cpp" />
+    <ClCompile Include="removeColsThatNotCorellatedWithCorrectRow.cpp" />
+    <ClCompile Include="removeRow.cpp" />
+    <ClCompile Include="removeRowsOfEqualFiguresWithCorrectRow.cpp" />
+    <ClCompile Include="removeRowsThatNotCorellatedWithCorrectRow.cpp" />
+    <ClCompile Include="renderFilledField.cpp" />
+    <ClCompile Include="restoreColRowStack.cpp" />
+    <ClCompile Include="seedFigures.cpp" />
+    <ClCompile Include="selectLeastColumn.cpp" />
+    <ClCompile Include="setColor.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bootstrap.h" />
+    <ClInclude Include="Col.h" />
+    <ClInclude Include="ColOrRow.h" />
+    <ClInclude Include="dependencies.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Row.h" />
+    <ClInclude Include="settings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

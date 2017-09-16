@@ -13,10 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\struct">
+      <UniqueIdentifier>{08502918-06d0-443d-8101-8aec7df3cfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\struct">
+      <UniqueIdentifier>{89b3646a-9650-45b0-9211-e4a008f78933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\functions">
+      <UniqueIdentifier>{85c8ef7a-3e77-4e4d-900d-ad285e546c34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Файлы исходного кода\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="renderFilledField.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dancingLinks.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="removeRowsOfEqualFiguresWithCorrectRow.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="setColor.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="removeColsThatNotCorellatedWithCorrectRow.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="removeRowsThatNotCorellatedWithCorrectRow.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="restoreColRowStack.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="removeCol.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="recoveryRow.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="removeRow.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="createReferenceMatrix.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="createMatrix.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="readFieldFromFile.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="seedFigures.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="selectLeastColumn.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="recoveryCol.cpp">
+      <Filter>Файлы исходного кода\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bootstrap.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Col.h">
+      <Filter>Заголовочные файлы\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="ColOrRow.h">
+      <Filter>Заголовочные файлы\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Заголовочные файлы\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Заголовочные файлы\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Заголовочные файлы\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
